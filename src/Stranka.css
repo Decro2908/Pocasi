@@ -1,0 +1,57 @@
+
+
+.app-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url('pocasi.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.city-weather {
+    background-color: #b64040;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: calc(33.33% - 40px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.weather-details {
+    margin-top: 15px;
+}
+
+.city-name {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    color: #f1f1f1;
+}
+
+.temperature {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.weather-description {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+h1{
+    color: white;
+    text-decoration: underline;
+}
